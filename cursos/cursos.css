@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg,#000000.70%, 	#B0C4DE 100.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  height: 70px; 
+  border-radius: 80%;
+  
+}
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFF2EF;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.info h3{
+  align-items: center;
+  font-size: 1.5rem;
+  color:#ADD8E6;
+  padding:1rem 0;
+  font-weight: normal;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h3 i{
+  padding-right: 1rem;
+  color:#B0C4DE;
+
+}
+
+ .rodape {
+    padding: 32px;
+    border-top: 0.2px solid #FFF2E7;
+    background: #708090;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.rodape-descricao{
+  text-align: center;
+  color: #000000;
+}
+
+
+
+section{
+    padding: 40px 0;
+  
+}
+.max-width{
+    max-width: 1300px;
+    padding-left: 80px;
+    margin: auto;
+    
+}
+.services{
+    font-family: 'Poppins', sans-serif;
+}
+
+.services .serv-content,
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* services section styling */
+
+.services .title::before,
+.projects .title::before{
+    background: #fff;
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px  10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+}
+.services .serv-content .card:hover{
+    background: #621f86;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: #621f86;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+   
+}
+
+
+

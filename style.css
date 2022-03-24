@@ -22,7 +22,7 @@ body {
 
 .cabecalho-imagem {
   height: 70px; 
-  border-radius: 80%;
+  border-radius: 50%;
   
 }
 
@@ -113,7 +113,7 @@ body {
 .conteudo-secundario-paragrafo {
   font-family: 'Sarala', sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 22px;
   color: #ADD8E6;
 }
 
@@ -121,6 +121,9 @@ body {
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
     background: #708090;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -134,10 +137,11 @@ body {
 }
 .btn-projeto{
   padding:.5rem 2rem;
-  
-  color:#000000;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur( 10px);
+  -webkit-backdrop-filter: blur(10px);
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   border-radius: 6rem;
 }
 .conteudo-principal-imagem2 {
@@ -164,42 +168,52 @@ body {
 }
 .rodape-descricao{
   text-align: center;
-  color: #FFF2EF
+  color: #000000;
 }
 .portfolio .box-container{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   padding:2rem 0;
 }
 
 .portfolio .box-container .box{
   height: 20rem;
-  width:26rem;
+  width:30rem;
   border-radius: 1rem;
-  margin:2rem;
+  margin:3rem;
   overflow: hidden;
   cursor: pointer;
 }
 
 .portfolio .box-container .box img{
-  height:100%;
+  height:85%;
   width:100%;
   object-fit: cover;
   display: block;
 }
 
 .portfolio .box-container .box:hover img{
-  transform: scale(1.2); 
- 
+  border: 10px solid #000000;
+  border-radius: 50%;;
+  -webkit-filter: blur(2px);
+  filter: blur(1px);
 }
 
-
-.portfolio .box-container .box:hover  button  {
+.portfolio .box-container .box:hover  button {
   position:absolute;
   z-index:1;
-    top:100%;
-    margin:200px 0 0 70px;   
+  top:100%;
+  margin:2.5em 0 0  3.7em;    
+  color: #1C1C1C;
+  
+  
 }
-
+.portfolio .box-container .box p{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 550;
+  color: #ADD8E6;
+  text-align: center;
+  font-size: 25px;
+}
