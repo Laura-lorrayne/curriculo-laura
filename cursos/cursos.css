@@ -56,134 +56,65 @@ body {
   text-align: center;
 }
 
-
-.info h3{
-  align-items: center;
-  font-size: 1.5rem;
-  color:#ADD8E6;
-  padding:1rem 0;
-  font-weight: normal;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.info h3 i{
-  padding-right: 1rem;
-  color:#B0C4DE;
-
-}
-
- .rodape {
-    padding: 32px;
-    border-top: 0.2px solid #FFF2E7;
-    background: #708090;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-}
-
-.rodape-descricao{
-  text-align: center;
-  color: #000000;
-}
-
-
-
-section{
-    padding: 40px 0;
-  
-}
-.max-width{
-    max-width: 1300px;
-    padding-left: 80px;
-    margin: auto;
-    
-}
-.services{
-    font-family: 'Poppins', sans-serif;
-}
-
-.services .serv-content,
-.contact .contact-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    
-}
-
-
-section .title{
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-
-/* services section styling */
-
-.services .title::before,
-.projects .title::before{
-    background: #fff;
-}
-.services .serv-content .card{
-    width: calc(33% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 20px  10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  
-}
-.services .serv-content .card:hover{
-    background: #B0C4DE;
-}
-.services .serv-content .card .box{
-    transition: all 0.3s ease;
-}
-.services .serv-content .card:hover .box{
-    transform: scale(1.05);
-}
-.services .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-    color: #ECD6C4;
-   
-}
-
-.serv-content .card .box :hover  button  {
-  padding:.5rem 2rem;
+.btn-curso{
+  padding:.2rem 1rem;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur( 10px);
   -webkit-backdrop-filter: blur(10px);
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border-radius: 6rem;
-  color: #000000;
 }
+
+.portfolio .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+.portfolio .box-container .box{
+  height: 10em;
+  width:10em;
+  border-radius: 1rem;
+  margin:3rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolio .box-container .box img{
+  height:80%;
+  width:90%;
+  -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+  object-fit: cover;
+  display: block;
+  align-items: center;
+}
+
+.portfolio .box-container .box:hover img{
+  border-radius: 50%;;
+  -webkit-filter: blur(2px);
+  filter: blur(1px);
+  opacity: 0.3;
+  -webkit-transform: scale(1.1);
+   transform: scale(0.7);
+}
+
 .portfolio .box-container .box:hover  button {
   position:absolute;
   z-index:1;
   top:auto;
-  margin:-6.5em 4em 0em  3.7em;    
-  color: #000000;
-}
-.services .serv-content .card .box:hover  button{
-  position: static;
-  z-index:1;
-  top:auto;    
-  color: #000000;
+  margin:-4em 0em 0em  0.4em;    
+  color: #FFF2E7;
 }
 
-
+.portfolio .box-container .box p{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 550;
+  color: #ADD8E6;
+  text-align: center;
+  font-size: 25px;
+}
 
 
