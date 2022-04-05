@@ -1,7 +1,7 @@
-# curriculo-laura 
+# My Portfolio
 
 
-<img src="../imagens/telainicial.jpg" alt="foto portfolio" />
+<img src="./imagens/telainicial.jpg" alt="foto portfolio" />
 
 
 ### ⚙️ Link
