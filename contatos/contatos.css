@@ -5,12 +5,13 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  
 } 
 
 body {
   font-size: 100%;
   background: linear-gradient(68.15deg,#000000 .70%, 	#B0C4DE 100.61%);
-  margin: 0 0 650px 0;
+  margin: 0 0 1040px 0;
 }
 
 .cabecalho {
@@ -40,47 +41,26 @@ body {
 }
 .conteudo{
   position: fixed;
-  margin: 8em 0em 0 43em;
+  margin: 20em 0em 0 60em;
   display: block;
 }
 .conteudo-secundario-titulo { 
-  padding-top: 48px;
   font-family: 'Righteous', cursive;
-  font-weight: 400;
   font-size: 30px;
   color: #FFF2EF;
-  margin-bottom: 16px;
   text-align: center;
 }
 .info h3{
   align-items: center;
   font-size: 1.5rem;
   color:#ADD8E6;
-  padding:1rem 0;
   font-weight: normal;
   height: 10vh;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .info h3 i{
-  padding-right: 1rem;
+  padding-right: auto;
   color:#B0C4DE;
-
-}
-
- .rodape {
-    padding: 32px;
-    border-top: 0.2px solid #FFF2E7;
-    background: #708090;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-}
-
-.rodape-descricao{
-  text-align: center;
-  color: #000000;
 }
